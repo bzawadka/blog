@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "blog",
+    "packageName": "pl.bzawadka.blog",
+    "packageFolder": "pl/bzawadka/blog",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "17c3069ce7244de91086698584ee90a5491f7296",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
